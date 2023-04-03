@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src='js/atividade.js'></script>
+    <link rel="stylesheet" href="estilo.css">
     <title>Tabuada</title>
 </head>
 <body>
@@ -18,16 +19,16 @@
         <div id="result"></div>
         <p></p>
     </div>
-    <div>
+    <div id="sort">
         <h1>Contador de Clicks</h1>
         <p>
-            Este botão recebeu
-            <span id="cliques">0</span>
-            Cliques
+            <b>Este botão recebeu</b>
+            <span id="cliques"><b>0</b></span>
+            <b>Cliques</b>
         </p>
         <button type="submit" onclick="contador()">Click</button>
     </div>
-    <div>
+    <div id="sort">
         <h1>Sorteador de números aleatórios</h1>
         <button onclick="sorteador()">Click para sortear</button>
         <h3 id="sorteado">Seu número da sorte é... </h3>
