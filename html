@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='js/atividade.js'></script>
+    <title>Tabuada</title>
+</head>
+<body>
+    <div>
+        <h1>Tabuada</h1>
+        <main>
+        <label for="">Digite o numero que você quer ver na tabela</label>
+        <input type="number" id="numero" required>
+        <button type="submit" onclick="imprimeTabuada()">Calcular</button>
+        </main>
+        <div id="result"></div>
+        <p></p>
+    </div>
+    <div>
+        <h1>Contador de Clicks</h1>
+        <p>
+            Este botão recebeu
+            <span id="cliques">0</span>
+            Cliques
+        </p>
+        <button type="submit" onclick="contador()">Click</button>
+    </div>
+    <div>
+        <h1>Sorteador de números aleatórios</h1>
+        <button onclick="sorteador()">Click para sortear</button>
+        <h3 id="sorteado">Seu número da sorte é... </h3>
+    </div>
+</body>
+</html>
